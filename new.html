@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Global CSS (same as before) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about, .projects, .contact {
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: center;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Ensure images have the same size */
+.project-list .project-img {
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height */
+    margin-right: 10px; /* Space between images */
+    object-fit: cover; /* Ensures the images cover the area without distortion */
+}
+
+</style>
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1>Hi, I'm YOGALAKSHMI</h1>
+      <p>Web Developer | Designer | Software Engineer | Singer</p>
+    </div>
+  </header>
+
+  <nav class="bg-secondary text-white text-center py-3">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with experience in HTML, CSS, JavaScript, and Node.js...</p><br>
+      <p>I am currently in my second year at Sri Ramachandra Faculty of Engineering. I have a passion for both <b>sports and music</b>, which keeps my life vibrant and engaging. Whether it's playing a game or strumming a tune, I find joy in expressing myself through these activities. Additionally, I pride myself on being a good listener, always ready to lend an ear to friends and peers. This quality not only helps me build strong relationships but also enhances my collaborative skills in team settings. I look forward to leveraging my interests and skills as I continue my academic journey and beyond</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list row d-flex justify-content-center">
+        <!-- Flexbox container for images -->
+        <div class="d-flex justify-content-between flex-wrap">
+          <!-- Example project -->
+          <div class="col-md-4">
+            <div class="project">
+              <!-- Images with fixed size and margin -->
+              <img src="1.png" alt="project" class="img-fluid project-img">
+              <img src="2.png" alt="project" class="img-fluid project-img">
+              <img src="3.png" alt="project" class="img-fluid project-img">
+              <h3>Project 1</h3>
+              <p>
+                Description of the project: It originally began as a way for travelers to find affordable accommodation...
+                <br><b>WEB FEATURES:</b><br>
+                <b>Search and Booking:</b> StayHeaven's website allows users to search for accommodations based on location, dates, price range, property type (house, apartment, unique spaces like treehouses or yurts), and amenities.<br>
+                <b>Map-Based Search:</b> It offers a map view where users can see property locations, helping travelers find lodging in specific areas...Booking and Payment: Users can book directly through the platform, which handles payments securely. StayHeaven typically takes a service fee from both hosts and guests for facilitating the transaction.
+Experiences and Adventures: Beyond lodging, StayHeaven offers "Experiences" and "Adventures," which allow users to book activities hosted by locals, ranging from cooking classes to guided city tours or multi-day excursions.<br>
+<b>3. Mobile Application:</b>
+The StayHeaven mobile app is available for both iOS and Android devices. It mirrors the functionality of the website but with added conveniences for users on the go.
+
+User-Friendly Interface: The app allows travelers to search, book, and communicate with hosts seamlessly. The intuitive design makes it easy to navigate between listings, read reviews, and make reservations.
+Real-Time Communication: The app enables direct messaging between guests and hosts, making it easy to ask questions or clarify details before or during a stay.
+Host Tools: Hosts can manage their listings, set pricing, update availability, and respond to booking requests through the app. They can also view their earnings, manage their calendar, and communicate with guests.
+Notifications and Updates: The app sends notifications about upcoming bookings, updates, and alerts, ensuring both guests and hosts are well-informed about their reservations.<br>
+<b>4. Unique Selling Points</b>
+StayHeaven distinguishes itself with:
+
+Diverse Accommodation Options: From luxury homes to cozy cabins, the platform offers a wide range of options to fit every traveler's needs.
+Local Experiences: By providing opportunities to engage with local culture, StayHeaven enhances the travel experience beyond just lodging.
+Community and Trust: StayHeaven emphasizes building a community of trusted hosts and guests through verified profiles, reviews, and secure transactions.
+
+                <!-- Add more project description here -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Message:</label>
+          <textarea id="message" name="message" class="form-control" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Yogalakshmi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    if (name && email && message) {
+        alert(`Thank you, ${name}. Your message has been received!`);
+        // You can implement actual email functionality using backend services like SMTP or email APIs.
+    } else {
+        alert('Please fill out all fields.');
+    }
+});
+
+</script>
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body> 
+<style></style>
+</html>
+
